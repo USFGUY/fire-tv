@@ -33,7 +33,7 @@ THUMBNAILS =  xbmc.translatePath(os.path.join(USERDATA,'Thumbnails'))
 zip =  ADDON.getSetting('zip')
 USB =  xbmc.translatePath(os.path.join(zip))
 skin =  xbmc.getSkinDir()
-VERSION = ""
+VERSION = "0.0.1"
 PATH = "Fire TV Guru Wizard"
 
 def MainMenu():

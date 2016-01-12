@@ -1,5 +1,5 @@
 <addons>
-<addon id="plugin.program.fire" name="Fire TV Wizard" version="" provider-name="Fire TV Guru">
+<addon id="plugin.program.fire" name="Fire TV Wizard" version="0.0.1" provider-name="Fire TV Guru">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
