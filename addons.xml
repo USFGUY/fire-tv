@@ -16,7 +16,7 @@
     <platform>all</platform> 
   </extension>
 </addon>
-<addon id="repository.firetvguru" name="Fire TV Guru" version="0.0.2" provider-name="Fire TV Guru">
+<addon id="repository.firetvguru" name="Fire TV Guru" version="0.0.3" provider-name="Fire TV Guru">
 	<extension point="xbmc.addon.repository" name="Fire TV Guru">
 		<info compressed="false">https://raw.github.com/Firetvguru/fire-tv/master/addons.xml</info>
 		<checksum>https://raw.github.com/Firetvguru/fire-tv/master/addons.xml.md5</checksum>
