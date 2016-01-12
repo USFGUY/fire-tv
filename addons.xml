@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon id="plugin.program.fire" name="Fire TV Wizard" version="0.0.1" provider-name="Fire TV Guru">
   <requires>
@@ -13,9 +14,10 @@
 		<forum> firetvguru@gmail.com</forum>
 		<source> firetvguru@gmail.com</source>
 		<website>https://www.facebook.com/Firetvguru</website>
-    <platform>all</platform> 
+    <platform>all</platform>
   </extension>
 </addon>
+
 <addon id="repository.firetvguru" name="Fire TV Guru" version="0.0.3" provider-name="Fire TV Guru">
 	<extension point="xbmc.addon.repository" name="Fire TV Guru">
 		<info compressed="false">https://raw.github.com/Firetvguru/fire-tv/master/addons.xml</info>
