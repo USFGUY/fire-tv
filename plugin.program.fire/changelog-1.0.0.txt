@@ -1,3 +1,6 @@
+Version 1.0.0
+-  Final ( for now )
+-  obfuscated
 Version 0.0.3
 -  Tweaked Fresh start and force close
 Version 0.0.2
