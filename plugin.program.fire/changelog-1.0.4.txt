@@ -1,3 +1,5 @@
+Version 1.0.4
+-- added fixes menu
 Version 1.0.3
 - Fix the wizard not force closing
 Version 1.0.2
