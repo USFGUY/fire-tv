@@ -1,3 +1,5 @@
+Version 1.0.5
+-- added forks of kodi for force close, tweaked unzip/
 Version 1.0.4
 -- added fixes menu
 Version 1.0.3

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.fire" name="Fire TV Wizard" version="1.0.4" provider-name="Fire TV Guru">
+<addon id="plugin.program.fire" name="Fire TV Wizard" version="1.0.5" provider-name="Fire TV Guru">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -9,81 +9,24 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Fire TV Wizard</summary>
-    <description lang="en">In this wizard you will find the latest Fire build....Without work from the Devs this would not of been possible! Thanks Dan Elmore for creating the Wizard, to TVADDONS.AG, Guys @ Xunity, whufclee@ TotalXBMC, MuckyDuck and all Developers who created add-ons used in my build. Also a very special Thanks to whufclee for the original Community Builds code used in this add-on.Updates included are the following: Cosmetic issues and small bugs. Visit https://www.facebook.com/Firetvguru for more info</description>
+    <description lang="en">In this wizard you will find the latest Fire build....Without work from the Devs this would not of been possible! Thanks Dan Elmore for creating the Wizard, to TVADDONS.AG, Guys @ Xunity, whufclee@ TotalXBMC, MuckyDuck and all Developers who created add-ons used in my build. Also a very special Thanks to whufclee for the original Community Builds code used in this add-on. Visit https://www.facebook.com/groups/Firetvguru for more info</description>
 	<disclaimer lang="en">I do not host nor control the content found within!!!!!</disclaimer>
 		<forum> firetvguru@gmail.com</forum>
 		<source> firetvguru@gmail.com</source>
-		<website>https://www.facebook.com/Firetvguru</website>
+		<website>-</website>
     <platform>all</platform>
   </extension>
 </addon>
 
-<addon id="plugin.video.firetv" name="Fire TV" version="0.0.1" provider-name="Fire TV Guru">
-    <requires>
-        <import addon="script.module.simplejson" version="3.3.0"/>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.t0mm0.common" version="2.0.0"/>
-        <import addon="plugin.video.youtube" version="3.0.0"/>
-        <import addon="script.module.urlresolver"  version="2.1.2"/>
-        <import addon="script.common.plugin.cache" version="2.5.2"/>
-        <import addon="script.module.metahandler" version="2.5.1"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">This addon uses streams that are available freely on the Internet.</summary>
-        <description lang="en">In the case of possible copyright infringement please contact the responsible parties. I do not host the content found within!!!!!. We do not take responsibility for the content hosted on such third party websites!!!!!</description>
-        <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="plugin.video.youtube" name="YouTube" version="5.1.16" provider-name="bromix">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-        <summary lang="en">Plugin for YouTube</summary>
-        <description lang="en">YouTube is a one of the biggest video-sharing websites of the world.</description>
-		<summary lang="de">Plugin für YouTube</summary>
-        <description lang="de">YouTube ist ein eines der größten Video-Sharing-Websites der Welt.</description>
-        <summary lang="pl">Wtyczka YouTube</summary>
-        <description lang="pl">YouTube jest jednym z największych na świecie serwisów udostępniania wideo.</description>
-		<summary lang="hu">Kiegészítő  a YouTube-hoz</summary>
-        <description lang="hu">A YouTube a világ egyik legnagyobb videómegosztó weboldala.</description>
-        <summary lang="es">Plugin para YouTube</summary>
-        <description lang="es">YouTube es un uno de los mayores sitios web de intercambio de vídeos del mundo.</description>
-        <summary lang="ru">Видеодополнение YouTube</summary>
-        <description lang="ru">Данное дополнение позволяет находить и смотреть видео на всеми любимом сайте.</description>
-        <summary lang="fr">Plugin pour YouTube</summary>
-        <description lang="fr">YouTube est l'un des plus grands sites de partage vidéos du monde.</description>
-        <summary lang="zh">YouTube附加元件</summary>
-        <description lang="zh">「Youtube」是全世界最大的影片分享網站</description>
-        <summary lang="bg">Добавка за YouTube</summary>
-        <description lang="bg">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
-		<disclaimer lang="en"></disclaimer>
-		<language></language>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=200735</forum>
-		<website>http://www.youtube.com</website>
-		<email>bromix at gmx dot net</email>
-		<source>https://github.com/bromix/plugin.video.youtube</source>
-	</extension>
-</addon>
-
-<addon id="repository.firetvguru" name="Fire TV Guru" version="0.0.3" provider-name="Fire TV Guru">
-	<extension point="xbmc.addon.repository" name="Fire TV Guru">
+<addon id="repository.firetvguru" name="Fire TV Guru Repo" version="0.0.4" provider-name="Fire TV Guru Repo">
+	<extension point="xbmc.addon.repository" name="Fire TV Guru Repo">
 		<info compressed="false">https://raw.github.com/Firetvguru/fire-tv/master/addons.xml</info>
 		<checksum>https://raw.github.com/Firetvguru/fire-tv/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.github.com/Firetvguru/fire-tv/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Fire TV Guru Repo</summary>
-		<description>My Kodi Repository</description>
+		<description>My Repository</description>
 		<platform>all</platform>
 	</extension>
 </addon>

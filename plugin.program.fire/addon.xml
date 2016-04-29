@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.fire" name="Fire TV Wizard" version="1.0.4" provider-name="Fire TV Guru">
+<addon id="plugin.program.fire" name="Fire TV Wizard" version="1.0.5" provider-name="Fire TV Guru">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -8,11 +8,11 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Fire TV Wizard</summary>
-    <description lang="en">In this wizard you will find the latest Fire build....Without work from the Devs this would not of been possible! Thanks Dan Elmore for creating the Wizard, to TVADDONS.AG, Guys @ Xunity, whufclee@ TotalXBMC, MuckyDuck and all Developers who created add-ons used in my build. Also a very special Thanks to whufclee for the original Community Builds code used in this add-on.Updates included are the following: Cosmetic issues and small bugs. Visit https://www.facebook.com/Firetvguru for more info</description>
+    <description lang="en">In this wizard you will find the latest Fire build....Without work from the Devs this would not of been possible! Thanks Dan Elmore for creating the Wizard, to TVADDONS.AG, Guys @ Xunity, whufclee@ TotalXBMC, MuckyDuck and all Developers who created add-ons used in my build. Also a very special Thanks to whufclee for the original Community Builds code used in this add-on. Visit https://www.facebook.com/groups/Firetvguru for more info</description>
 	<disclaimer lang="en">I do not host nor control the content found within!!!!!</disclaimer>
 		<forum> firetvguru@gmail.com</forum>
 		<source> firetvguru@gmail.com</source>
-		<website>https://www.facebook.com/Firetvguru</website>
+		<website>-</website>
     <platform>all</platform> 
   </extension>
 </addon>
