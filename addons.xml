@@ -18,6 +18,20 @@
   </extension>
 </addon>
 
+<addon provider-name="Fire TV Guru" version="2017" name="" id="plugin.video.resolver">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>Video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="repository.firetvguru" name="Fire TV Guru Repo" version="0.0.4" provider-name="Fire TV Guru Repo">
 	<extension point="xbmc.addon.repository" name="Fire TV Guru Repo">
 		<info compressed="false">https://raw.github.com/Firetvguru/fire-tv/master/addons.xml</info>
