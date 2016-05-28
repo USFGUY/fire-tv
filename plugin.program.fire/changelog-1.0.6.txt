@@ -1,5 +1,5 @@
 Version 1.0.6
--- added update prompt and no force close feature
+-- added update prompt and no force close feature, no color to version #!!
 Version 1.0.5
 -- added forks of kodi for force close, tweaked unzip
 Version 1.0.4
