@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.fire" name="[COLOR orangered][B]Fire TV Wizard[/COLOR][/B]" version="1.0.13" provider-name="Fire TV Guru">
+<addon id="plugin.program.fire" name="[COLOR orangered][B]Fire TV Wizard[/COLOR][/B]" version="1.0.14" provider-name="Fire TV Guru">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
