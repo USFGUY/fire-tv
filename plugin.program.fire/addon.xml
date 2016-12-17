@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.fire" name="[COLOR yellow]-[COLOR blue]Fire TV Wizard[COLOR yellow]-[/COLOR]" version="1.1.2" provider-name="[COLOR red]F[COLOR white]T[COLOR blue]G[/COLOR]">
+<addon id="plugin.program.fire" name="[COLOR yellow]-[COLOR blue]Fire TV Wizard[COLOR yellow]-[/COLOR]" version="1.1.3" provider-name="[COLOR red]F[COLOR white]T[COLOR blue]G[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -9,8 +9,7 @@
   <extension point="xbmc.service" library="service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Fire TV Wizard</summary>
-    <description lang="en">In this wizard you will find the latest Fire build....Without work from the Devs and Streaming Websites this would not of been possible! Thanks whufclee@ NaN,GUYS @ TI, ][NT3L][G3NC][ for the app installer and all Developers who created add-ons used in my build. Also a very special Thanks to Surfacingx for the code used in this add-on. Visit https://www.facebook.com/groups/Firetvguru for more info and support.</description>
-	<disclaimer lang="en">I do not host nor control the content found within!!!!!</disclaimer>
+    <description lang="en">In this wizard you will find the latest Fire build.     Without work from the Devs and Streaming Websites this would not of been possible! Thanks whufclee@ NaN,GUYS @ TI, Brackets for the app installer!! All Developers who created add-ons used in my build. Also a very special Thanks to Surfacingx for the code used in this add-on. Visit https://www.facebook.com/groups/Firetvguru for more info and support.</description>
 		<forum>-</forum>
 		<source> -</source>
 		<website>-</website>
