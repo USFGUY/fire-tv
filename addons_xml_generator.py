@@ -1,4 +1,4 @@
-""" addons.xml generator """
+""" FTG addons.xml generator """
 
 import os
 import md5
@@ -56,7 +56,7 @@ class Generator:
             # save file
             self._save_file( m, file="addons.xml.md5" )
         except Exception, e:
-            # oops
+            # Shit
             print "An error occurred creating addons.xml.md5 file!\n%s" % ( e, )
 
     def _save_file( self, data, file ):
@@ -64,7 +64,7 @@ class Generator:
             # write data to the file
             open( file, "w" ).write( data )
         except Exception, e:
-            # oops
+            # Shit
             print "An error occurred saving %s file!\n%s" % ( file, e, )
 
 
