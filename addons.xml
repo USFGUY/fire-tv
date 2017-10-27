@@ -110,6 +110,24 @@
 	</extension>
 </addon>
 
+<addon id="script.ftgpair" name=" [COLOR orange]FTG[/COLOR] Pair" version="1.0.0" provider-name="[COLOR red]F[COLOR white]T[COLOR blue]G[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="pair.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Small Script for Pairing</summary>
+    <description lang="en">Small Script for Pairing</description>
+    <disclaimer lang="en">-</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
+
 <addon id="script.module.addon.common"
 	     name="Common addon methods"
 	     version="2.0.0"
@@ -130,6 +148,24 @@
     <website></website>
     <email></email>
     <source></source>
+  </extension>
+</addon>
+
+<addon id="script.skinswitch" name=" [COLOR orange]FTG[/COLOR] Skin Swap" version="1.0.1" provider-name="[COLOR red]F[COLOR white]T[COLOR blue]G[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">-</summary>
+    <description lang="en">Small Simple Script for Switching Skins. Bulders that use this open the addon.py for the manual mode</description>
+    <disclaimer lang="en">.</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
   </extension>
 </addon>
 </addons>
